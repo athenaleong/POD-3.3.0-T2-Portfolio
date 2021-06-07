@@ -1,3 +1,8 @@
+##### Team Members: 
+1. *[Patrick O'Donnell](https://github.com/manlalaro1)* 
+2. *[Juan Carlos Hurtado Andrade](https://github.com/CarlosHurand)* 
+3. *[Athena Leong](https://github.com/athenaleong)*
+
 # Flask-Blog
 
 Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
