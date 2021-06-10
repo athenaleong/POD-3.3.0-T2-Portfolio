@@ -1,4 +1,4 @@
-p, h1, h2, h3, h4, h5, h6, button {
+/* p, h1, h2, h3, h4, h5, h6, button {
     font-family: "Roboto", serif;
 }
 
@@ -60,24 +60,112 @@ body {
         font-size: 50px;
         font-weight: 700;
         color: white;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.profile img {
-        border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;        
-        padding: 20px;
+body {
+    background: #1D212B;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(1) {
+    color: #fff;
+}
+
+section:nth-child(2) {
+    color: #1D212B;
+    background: #fff;
+}
+
+section:nth-child(3) {
+    color: #fff;
+}
+
+section:nth-child(4) {
+    color: #1D212B;
+    background: #fff;}
+}
+
+section .container{
+    margin: 100px;
+}
+
+section h1 {
+    font-size: 60px;
+}
+
+section h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section .cards {
+    display: flex;
+}
+
+section .cards .text-card {
+    background: #2696E9;
+    margin: 20px;
+    padding: 20px;
+}
+
+section .cards .text-card h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    section h1 {
+        font-size: 40px;
+    }
+
+    section.cards {
+        flex-direction: column;
+    }
+}
+
+.reveal {
+    position: relative;
+    transform: translateX(-400px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateX(0px);
+    opacity: 1; 
+}
+/* .profile img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
 .profile .profile-picture {
+    display: flex;      
+    align-content: start;  
     margin-bottom: 30px;
     height: 200px;
-}
+} */
 
-.banner {
+/* .banner {
     padding: 20px 0px 50px 0px;
     height: 150px;
     background-color: #1d539f;
@@ -94,4 +182,4 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
-}
+} */

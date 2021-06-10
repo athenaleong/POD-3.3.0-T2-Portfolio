@@ -1,10 +1,9 @@
 import os
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template
 from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
-
 
 @app.route('/')
 def index():
@@ -22,6 +21,6 @@ def patrick():
 def juancarlos():
     return render_template('juancarlos.html')
 
-# @app.route('/<string:user_name>')
-# def user(user_name):
-#     return render_template('${user_name}.html')
+# @app.route("/static/<path:path>")
+# def static_dir(path):
+#     return send_from_directory("static", path)
