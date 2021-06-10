@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:title" content="Personal Portfolio">
-    <meta property="og:description" content="My Personal Portfolio">
-    <meta property="og:url" content="{{ url }}">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta property="og:title" content="Personal Portfolio" />
+    <meta property="og:description" content="My Personal Portfolio" />
+    <meta property="og:url" content="{{ url }}" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-    <link lang='sass' rel="stylesheet" href="./static/styles/main.css">
-    <link rel='icon' href='./static/img/favicon.ico' type='image/x-icon' />
+    <link lang="sass" rel="stylesheet" href="./static/styles/main.css" />
+    <link rel="icon" href="./static/img/favicon.ico" type="image/x-icon" />
     <title>{{ title }}</title>
-</head>
+  </head>
 
-<body>
-    <header class="nav-bar">
+  <body>
+    <!-- <header class="nav-bar">
         <div class="nav-content">
             <a href="/">
                 <div class="nav-logo">
@@ -35,12 +34,52 @@
             <img src="./static/img/logo.jpg">
         </div>
         <h1>{{ title }}</h1>
-    </div>
-
-    <div>
-        <a href="/juancarlos">Juan Carlos</a>
-        <a href="/athena">Athena</a>
-        <a href="/patrick">Patrick</a>        
-    </div>
-</body>
+    </div> -->
+    <!-- <div class="profile">
+        <div class="profile-picture">
+            <img src="./static/img/logo.jpg">
+        </div>
+        <div class="profile-bio">2</div>
+    </div> -->
+    <section>
+      <h1>Hello! It's nice to meet you!</h1>
+    </section>
+    <section>
+      <div class="container reveal">
+        <h2>Big Title</h2>
+        <div class="cards">
+          <div class="text-card">
+            <h3>Title</h3>
+            <p>ajskdhfjksadljkfdnjdnsakfn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container reveal">
+        <h2>Big Title</h2>
+        <div class="cards">
+          <div class="text-card">
+            <h3>Title</h3>
+            <p>ajskdhfjksadljkfdnjdnsakfn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container reveal">
+        <h2>Big Title</h2>
+        <div class="cards">
+          <div class="text-card">
+            <h3>Title</h3>
+            <p>ajskdhfjksadljkfdnjdnsakfn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <a href="/juancarlos">Juan Carlos</a>
+    <a href="/athena">Athena</a>
+    <a href="/patrick">Patrick</a> -->
+    <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
+  </body>
 </html>
