@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Personal Portfolio">
+    <meta property="og:description" content="My Personal Portfolio">
+    <meta property="og:url" content="{{ url }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel='icon' href='./static/img/favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <link lang='text/css' rel="stylesheet" href="./static/styles/individual.css">
+    <title>hi</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <div class="glider-contain multiple">
+        <div class="glider">
+            <div id='panel' class="glider-slide"> 
+                <i class="fa fa-chevron-right"></i>
+                <p>Project Name</p>
+                <p>Description</p>
+                <div id="icon-box"> 
+                    <a href="https://www.google.com.sg/">
+                        <img src="./static/img/logo.svg" />
+                    </a>
+                    <a href="https://www.google.com.sg/">
+                        <img src="./static/img/logo.svg" />
+                    </a>
+                    
+                </div>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>  
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <div id='panel' class="glider-slide"> 
+                <h1>HELLO</h1>
+            </div>
+            <button aria-label="Previous" class="glider-prev" id="glider-prev">
+                <i class="fa fa-chevron-left"></i>
+            </button>
+            <button aria-label="Next" class="glider-next" id="glider-next">
+                <i class="fa fa-chevron-right"></i>
+            </button>
+
+        </div>
+    </div>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 3,
+            dots: '#dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+        }
+        });
+    </script>
+
+</body>
+</html>
