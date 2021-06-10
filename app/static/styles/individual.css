@@ -13,7 +13,7 @@
     height: 500px;
     border-radius: 50px;
     background: #ffffff;
-    border: double 6px transparent;
+    border: solid 8px transparent;
     /* box-shadow:  20px 20px 60px #d9d9d9, 
                 -20px -20px 60px #ffffff; */
     background-image: linear-gradient(white, white), linear-gradient(to left,
@@ -25,20 +25,36 @@
     font-family: Roboto;
 }
 
-.description {
-    font-size: 18px;
+.glider-slide:hover {
+    cursor: pointer;
+
 }
 
-.title {
+.proj-text{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.proj-description {
+    font-size: 18px;
+    text-align: center;
+    color:grey;
+
+}
+
+.proj-title {
     font-size: 24px;
 }
 
 .fa {
-    font-size: 86px;
+    font-size: 72px;
+    color:grey;
 }
 
 .arrow {
     font-size: 32px;
+    color:#efa8b0;
+    vertical-align: middle;
 }
 
 
