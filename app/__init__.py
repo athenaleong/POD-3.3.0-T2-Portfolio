@@ -21,6 +21,11 @@ def patrick():
 def juancarlos():
     return render_template('juancarlos.html')
 
+@app.route('/individual')
+def base():
+    return render_template('individual.html')
+
+
 # @app.route("/static/<path:path>")
 # def static_dir(path):
 #     return send_from_directory("static", path)
