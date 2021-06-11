@@ -1,5 +1,8 @@
 window.addEventListener('scroll', reveal);
 
+/**
+ * Slide out from left side on scroll
+ */
 function reveal() {
     var reveals = document.querySelectorAll('.reveal')
 
