@@ -10,6 +10,7 @@
     <meta property="og:title" content="Personal Portfolio" />
     <meta property="og:description" content="My Personal Portfolio" />
     <meta property="og:url" content="{{ url }}" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
@@ -19,67 +20,78 @@
   </head>
 
   <body>
-    <!-- <header class="nav-bar">
-        <div class="nav-content">
-            <a href="/">
-                <div class="nav-logo">
-                    <img src="./static/img/logo.svg" />
-                </div>
-            </a>
-        </div>
-    </header>
-
-    <div class="profile">
-        <div id="profile-picture" class="profile-picture">
-            <img src="./static/img/logo.jpg">
-        </div>
-        <h1>{{ title }}</h1>
-    </div> -->
-    <!-- <div class="profile">
-        <div class="profile-picture">
-            <img src="./static/img/logo.jpg">
-        </div>
-        <div class="profile-bio">2</div>
-    </div> -->
     <section>
-      <h1>Hello! It's nice to meet you!</h1>
+      <h1>Welcome to our portafolio website!</h1>
     </section>
+    <!-- First Card -->
     <section>
       <div class="container reveal">
-        <h2>Big Title</h2>
-        <div class="cards">
-          <div class="text-card">
-            <h3>Title</h3>
-            <p>ajskdhfjksadljkfdnjdnsakfn</p>
+        <div style="width: 700px;">
+          <div>
+          <div class="grid-container">
+            <div style="display:flex; justify-content: center;">
+              <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t1.6435-9/84026727_2747323122019913_5645083294765678592_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=0t_wB7DPHbYAX_ApeFJ&_nc_ht=scontent-qro1-2.xx&oh=cb73fc4d0dcb64451779604fa73a4b67&oe=60E7CA33" class="avatar">
+            </div>
+            <div class="bio">
+              A girl on the move ;)
+            </div>
+            <div class="grid-item">
+              Athena
+            </div> 
+            <div class="grid-item">
+              <button  onclick="window.open('/athena', '_self')" class="button">More</button>
+            </div> 
           </div>
         </div>
-      </div>
+        </div>
+    </div>
     </section>
+    <!-- Second Card -->
     <section>
       <div class="container reveal">
-        <h2>Big Title</h2>
-        <div class="cards">
-          <div class="text-card">
-            <h3>Title</h3>
-            <p>ajskdhfjksadljkfdnjdnsakfn</p>
+        <div style="width: 700px;">
+          <div>
+          <div class="grid-container2">
+            <div style="display:flex; justify-content: center;">
+              <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t1.6435-9/84026727_2747323122019913_5645083294765678592_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=0t_wB7DPHbYAX_ApeFJ&_nc_ht=scontent-qro1-2.xx&oh=cb73fc4d0dcb64451779604fa73a4b67&oe=60E7CA33" class="avatar">
+            </div>
+            <div class="bio2">
+              A really cool dude :)
+            </div>
+            <div class="grid-item2">
+              Patrick
+            </div> 
+            <div class="grid-item2">
+              <button  onclick="window.open('/patrick', '_self')" class="button">More</button>
+            </div> 
           </div>
         </div>
-      </div>
+        </div>
+    </div>
     </section>
+    <!-- Third Card -->
     <section>
       <div class="container reveal">
-        <h2>Big Title</h2>
-        <div class="cards">
-          <div class="text-card">
-            <h3>Title</h3>
-            <p>ajskdhfjksadljkfdnjdnsakfn</p>
+        <div style="width: 700px;">
+          <div>
+          <div class="grid-container">
+            <div style="display:flex; justify-content: center;">
+              <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t1.6435-9/84026727_2747323122019913_5645083294765678592_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=0t_wB7DPHbYAX_ApeFJ&_nc_ht=scontent-qro1-2.xx&oh=cb73fc4d0dcb64451779604fa73a4b67&oe=60E7CA33" class="avatar">
+            </div>
+            <div class="bio">
+              Software and hardware passionate looking for ways to bring this passion to reality
+            </div>
+            <div class="grid-item">
+              Juan Carlos
+            </div> 
+            <div class="grid-item">
+              <button  onclick="window.open('/juancarlos', '_self')" class="button">More</button>
+            </div> 
           </div>
         </div>
-      </div>
+        </div>
+    </div>
     </section>
-    <!-- <a href="/juancarlos">Juan Carlos</a>
-    <a href="/athena">Athena</a>
-    <a href="/patrick">Patrick</a> -->
     <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
   </body>
 </html>
