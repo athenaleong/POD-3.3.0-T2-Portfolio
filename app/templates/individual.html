@@ -34,73 +34,76 @@
   </head>
   <body>
     <div id="content">
-      {% block profile %} {% endblock %} 
-      {% block info %} {% endblock %}
-    </div>
-    <!-- <div id="carousel">
-      <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
-      <div class="glider-contain multiple">
-        <div class="glider">
-          <div
-            class="panel glider-slide"
-            data-location="https://fontawesome.com/v4.7/icons/"
-          >
-            <i class="fa icon-camera-retro"></i>
-            <div class="proj-text">
-              <p class="proj-title">Project Name</p>
-              <p class="proj-description">Description</p>
+      {% block profile %} {% endblock %} {% block info %} {% endblock %}
+
+      <div id="carousel">
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+        <div class="glider-contain multiple">
+          <div class="glider">
+            <div
+              class="panel glider-slide"
+              data-location="https://fontawesome.com/v4.7/icons/"
+            >
+              <i class="fa icon-camera-retro"></i>
+              <div class="proj-text">
+                <p class="proj-title">Project Name</p>
+                <p class="proj-description">Description</p>
+              </div>
+            </div>
+            <div
+              class="panel glider-slide"
+              data-location="https://fontawesome.com/v4.7/icons/"
+            >
+              <i class="fa icon-btc"></i>
+              <div class="proj-text">
+                <p class="proj-title">Project Name</p>
+                <p class="proj-description">Description</p>
+              </div>
+            </div>
+            <div
+              class="panel glider-slide"
+              data-location="https://fontawesome.com/v4.7/icons/"
+            >
+              <i class="fa icon-moon"></i>
+              <div class="proj-text">
+                <p class="proj-title">Project Name</p>
+                <p class="proj-description">Description</p>
+              </div>
+            </div>
+            <div
+              class="panel glider-slide"
+              data-location="https://fontawesome.com/v4.7/icons/"
+            >
+              <i class="fa icon-moon"></i>
+              <div class="proj-text">
+                <p class="proj-title">Project Name</p>
+                <p class="proj-description">Description</p>
+              </div>
+            </div>
+            <div
+              class="panel glider-slide"
+              data-location="https://fontawesome.com/v4.7/icons/"
+            >
+              <i class="fa icon-camera-retro"></i>
+              <div class="proj-text">
+                <p class="proj-title">Project Name</p>
+                <p class="proj-description">Description</p>
+              </div>
             </div>
           </div>
-          <div
-            class="panel glider-slide"
-            data-location="https://fontawesome.com/v4.7/icons/"
-          >
-            <i class="fa icon-btc"></i>
-            <div class="proj-text">
-              <p class="proj-title">Project Name</p>
-              <p class="proj-description">Description</p>
-            </div>
-          </div>
-          <div
-            class="panel glider-slide"
-            data-location="https://fontawesome.com/v4.7/icons/"
-          >
-            <i class="fa icon-moon"></i>
-            <div class="proj-text">
-              <p class="proj-title">Project Name</p>
-              <p class="proj-description">Description</p>
-            </div>
-          </div>
-          <div
-            class="panel glider-slide"
-            data-location="https://fontawesome.com/v4.7/icons/"
-          >
-            <i class="fa icon-moon"></i>
-            <div class="proj-text">
-              <p class="proj-title">Project Name</p>
-              <p class="proj-description">Description</p>
-            </div>
-          </div>
-          <div
-            class="panel glider-slide"
-            data-location="https://fontawesome.com/v4.7/icons/"
-          >
-            <i class="fa icon-camera-retro"></i>
-            <div class="proj-text">
-              <p class="proj-title">Project Name</p>
-              <p class="proj-description">Description</p>
-            </div>
-          </div>
+          <button aria-label="Previous" class="glider-prev" id="glider-prev">
+            <i class="arrow icon-chevron-left"></i>
+          </button>
+          <button aria-label="Next" class="glider-next" id="glider-next">
+            <i class="arrow icon-chevron-right"></i>
+          </button>
+          <div role="tablist" class="dots"></div>
         </div>
-        <button aria-label="Previous" class="glider-prev" id="glider-prev">
-          <i class="arrow icon-chevron-left"></i>
-        </button>
-        <button aria-label="Next" class="glider-next" id="glider-next">
-          <i class="arrow icon-chevron-right"></i>
-        </button>
-        <div role="tablist" class="dots"></div>
+        <script src="./static/individual.js"></script>
       </div>
-      <script src="./static/js/individual.js"></script>
-    </div> -->
+      <footer>
+        <a href="/">Return to Home</a>
+      </footer>
+    </div>
   </body>
 </html>
