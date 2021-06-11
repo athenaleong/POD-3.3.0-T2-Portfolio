@@ -75,8 +75,11 @@ body {
 section {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 section:nth-child(1) {
@@ -202,6 +205,13 @@ section .cards .text-card h3 {
     border: 5px solid rgba(233, 233, 233, 0.8);
     border-radius: 20px;
 }
+.grid-containerH {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
 .grid-item {
     background-color: white;
     padding: 20px;
@@ -227,26 +237,26 @@ section .cards .text-card h3 {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #212529;
     color: white;
     width: 400px;
-    padding: 5px !important;
+    padding: 20px !important;
 }
 .bio2 {
     background-color: #212529;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     background-color: white;
     color: #212529;
     width: 400px;
-    padding: 5px !important;
+    padding: 20px !important;
 }
 .avatar {
     height: 150px;
-    border-radius: 60px;
+    border-radius: 70px;
     width: 150px;
     margin-right: 10px;
 }
