@@ -1,3 +1,7 @@
+* {
+  font-family: Roboto;
+}
+
 #content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -36,7 +40,7 @@
   height: 200px;
   width: 200px;
   padding: 10px;
-  background-color: #f28482;
+  background-color: #DBA11A;
 }
 
 #info {
@@ -51,6 +55,7 @@
 
 .info-section {
   width: 100%;
+  margin:40px;
 }
 
 .subtitle {
@@ -59,8 +64,12 @@
   font-size: 2vw;
   color: white;
   background: #102542;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
+}
+
+.title p {
+  font-family: Lobster;
 }
 
 .info-content p {
@@ -114,11 +123,11 @@ footer a {
   /* box-shadow:  20px 20px 60px #d9d9d9, 
                   -20px -20px 60px #ffffff; */
   background-image: linear-gradient(white, white),
-    linear-gradient(to left, #efa8b0, #8cc9f0, #a89cc8);
+    linear-gradient(to left, #3B76CE, #214983, #DBA11A);
   background-origin: border-box;
   background-clip: content-box, border-box;
   font-family: Roboto;
-}
+} 
 
 .glider-slide:hover {
   cursor: pointer;
@@ -141,16 +150,24 @@ footer a {
 
 .fa {
   font-size: 72px;
-  color: grey;
+  color: #102542;
 }
 
 .arrow {
   font-size: 32px;
-  color: #efa8b0;
+  color: #214983;
   vertical-align: middle;
 }
 
 .glider-next,
 .glider-prev {
   top: 42%;
+}
+
+.home-button {
+  background-color: #DBA11A;
+  border-radius: 10px;
+  padding: 20px;
+  border:0px;
+  color: white;
 }

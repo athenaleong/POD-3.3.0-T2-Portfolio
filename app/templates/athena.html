@@ -4,7 +4,10 @@
     {% block profile %}
     <div id="profile">
       <div id="greeting">
-        <div id="title">Hello! <br />My name is {{ name }}.</div>
+        <div id="title">
+          <p>👋🏼 Hello! </p>
+          <p>My name is {{ name }}. </p>
+        </div>
       </div>
       <div id="profile-picture">
         <img src="./static/img/athena.jpg" />
@@ -13,7 +16,7 @@
     {% endblock %} {% block info %}
     <div id="info">
       <div class="info-section">
-        <div class="subtitle">ABOUT ME</div>
+        <div class="subtitle">About Me</div>
         <div class="info-content">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -27,7 +30,7 @@
         </div>
       </div>
       <div class="info-section">
-        <div class="subtitle">EXPERIENCE</div>
+        <div class="subtitle">Experience</div>
         <div class="info-content">
           <div id="job-list">
             <ul>
@@ -75,7 +78,7 @@
         </div>
       </div>
       <div class="info-section">
-        <div class="subtitle">EDUCATION</div>
+        <div class="subtitle">Education</div>
         <div class="info-content">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -89,7 +92,7 @@
         </div>
       </div>
       <div class="info-section">
-        <div class="subtitle">PROJECTS</div>
+        <div class="subtitle">Projects</div>
       </div>
     </div>
     {% endblock %}
