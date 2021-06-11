@@ -11,15 +11,15 @@ def index():
 
 @app.route('/athena')
 def athena():
-    return render_template('athena.html')
+    return render_template('athena.html', name="Athena")
 
 @app.route('/patrick')
 def patrick():
-    return render_template('patrick.html')
+    return render_template('patrick.html', name ="Patrick")
 
 @app.route('/juancarlos')
 def juancarlos():
-    return render_template('juancarlos.html')
+    return render_template('juancarlos.html', name="Juan Carlos")
 
 @app.route('/individual')
 def base():
