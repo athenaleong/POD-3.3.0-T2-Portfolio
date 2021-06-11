@@ -74,12 +74,12 @@ body {
 
 section {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    align-content: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 section:nth-child(1) {
@@ -90,7 +90,7 @@ section:nth-child(2) {
     color: #1D212B;
     background: #fff;
 }
-
+ƒ
 section:nth-child(3) {
     color: #fff;
 }
@@ -101,7 +101,21 @@ section:nth-child(4) {
 }
 
 section .container{
-    margin: 100px;
+    margin: auto;
+
+}
+
+section .indv-div {
+    display:flex; 
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+section .name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
 }
 
 section h1 {
@@ -154,6 +168,8 @@ section .cards .text-card h3 {
 .reveal.active {
     transform: translateX(0px);
     opacity: 1; 
+    display: flex;
+    justify-content: center;
 }
 /* .profile img {
     border-radius: 50%;
