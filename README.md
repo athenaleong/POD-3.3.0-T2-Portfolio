@@ -1,12 +1,11 @@
-##### Team Members: 
-1. *[Patrick O'Donnell](https://github.com/manlalaro1)* 
-2. *[Juan Carlos Hurtado Andrade](https://github.com/CarlosHurand)* 
-3. *[Athena Leong](https://github.com/athenaleong)*
 
-# Flask-Blog
 
-Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
- 
+# Team Portfolio Page 
+
+Portfolio pages to showcase our work! Get to know the team through 
+our page. 
+
+Checkout 🎥 [video demo]()
 
 ## Installation
 
@@ -27,7 +26,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-
 Create a .env file using the example.env template
 
 
@@ -37,7 +35,7 @@ $ export FLASK_ENV=development
 $ flask run
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## Made with ❤️
+-  *[Patrick O'Donnell](https://github.com/manlalaro1)* 
+-  *[Juan Carlos Hurtado Andrade](https://github.com/CarlosHurand)* 
+- *[Athena Leong](https://github.com/athenaleong)*
