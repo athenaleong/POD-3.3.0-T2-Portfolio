@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html', title="MLH Fellow", url=os.getenv("URL"))
+    return render_template('index.html', title="Portfolio", url=os.getenv("URL"))
 
 @app.route('/athena')
 def athena():
@@ -20,12 +20,3 @@ def patrick():
 @app.route('/juancarlos')
 def juancarlos():
     return render_template('juancarlos.html', name="Juan Carlos")
-
-@app.route('/individual')
-def base():
-    return render_template('individual.html')
-
-
-# @app.route("/static/<path:path>")
-# def static_dir(path):
-#     return send_from_directory("static", path)
