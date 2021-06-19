@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -20,3 +20,7 @@ def patrick():
 @app.route('/juancarlos')
 def juancarlos():
     return render_template('juancarlos.html', name="Juan Carlos")
+
+@app.route('/health', methods=[ 'GET' ])
+def health():
+    return jsonify(status=200)
