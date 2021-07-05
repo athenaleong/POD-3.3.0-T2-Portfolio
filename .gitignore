@@ -3,4 +3,4 @@ __pycache__
 *.pyc
 .env
 .vercel
-app/flask.sqlite
+flask.sqlite
