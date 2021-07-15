@@ -1,0 +1,30 @@
+name: Lint
+
+on:
+# Tirgger based on following actions
+push:
+  branches:
+    - main
+pull-requests:
+  branches:
+    - main
+jobs:
+  run-linters:
+    name: Run run-linters
+    runs-on: ubuntu-latest
+steps:
+    - name: Check out Git repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+          python-version: 3.9
+    - name: Install Python dependencies
+      run: pip install black flake8
+    - name: Run run-linters
+      uses: wearerequired/lint-action@v1.10.0
+      with:
+        black: true
+        flake8: true 
+    
