@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to AWES EC2 Virutal Machine
+    name: Deploy to AWS EC2 Virutal Machine
     runs-on: ubuntu-latest
     steps:
       - name : Configure SSH

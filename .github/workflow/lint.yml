@@ -4,10 +4,10 @@ on:
 # Tirgger based on following actions
 push:
   branches:
-    - main
+    - master
 pull-requests:
   branches:
-    - main
+    - master
 jobs:
   run-linters:
     name: Run run-linters
